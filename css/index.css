@@ -1,0 +1,132 @@
+.main-box {
+    height: fit-content;
+    width: 500px;
+    margin: 0 auto;
+    background-color: rgb(237, 237, 237);
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(237, 237, 237);
+    border-bottom: 1px solid rgb(212, 212, 212);
+}
+
+.return-button {
+    display: inline-block;
+    margin: 25px;
+}
+
+.name-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -25px;
+    height: 100%;
+    width: 380px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.name-box>span {
+    font-size: 25px;
+    display: inline-block;
+}
+
+.listen-icon {
+    margin-left: 5px;
+}
+
+.more-button {
+    display: inline-block;
+    margin-top: 25px;
+    margin-right: 25px;
+}
+
+.message-left,
+.message-right {
+    display: flex;
+    margin: 15px;
+    height: auto;
+}
+
+.message-right {
+    justify-content: flex-end;
+}
+
+.message-left .msg-photo,
+.message-right .msg-photo {
+    max-width: 100%;
+}
+
+.avatar {
+    display: inline-block;
+    border-radius: 5px;
+    height: 50px;
+    width: 50px;
+}
+
+.message-left .msg-wrapper {
+    background-color: white;
+}
+
+.msg-wrapper {
+    padding: 8px;
+    font-size: 25px;
+    margin-left: 20px;
+    border-radius: 7px;
+    max-width: 65%;
+}
+
+.msg-wrapper>span {
+    display: block;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+
+.message-right .msg-wrapper {
+    background-color: rgb(149, 236, 105);
+}
+
+
+.arrow {
+    margin-top: 15px;
+    height: 1px;
+    border: 10px solid transparent;
+}
+
+.message-left .arrow {
+    margin-right: -20px;
+    border-right: 10px solid white;
+}
+
+.message-right .arrow {
+    border-left: 10px solid rgb(149, 236, 105);
+}
+
+.reply-box {
+    display: flex;
+    background-color: rgb(247, 247, 247);
+    height: 70px;
+    border-top: 1px solid rgb(212, 212, 212);
+}
+
+.voice-button {
+    margin: 15px 20px;
+}
+
+.emogi-button {
+    margin: 15px 8px;
+}
+
+.plus-button {
+    margin: 15px 5px;
+}
+
+.user-input {
+    height: 50px;
+    width: 100%;
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 5px;
+}
