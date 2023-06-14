@@ -1,0 +1,59 @@
+.dark {
+    background-color: rgb(17, 17, 17);
+}
+
+.dark .header {
+    background-color: rgb(17, 17, 17);
+    border-bottom: 1px solid rgb(17, 17, 17);
+    color: rgb(207, 207, 207)
+}
+
+.dark .message-left .msg-wrapper {
+    background-color: rgb(44, 44, 44);
+    color: rgb(207, 207, 207);
+}
+
+.dark .message-right .msg-wrapper {
+    background-color: rgb(62, 180, 119);
+}
+
+.dark .message-right .arrow {
+    border-left-color: rgb(62, 180, 119);
+}
+
+.dark .message-left .arrow {
+    border-right-color: rgb(44, 44, 44);
+}
+
+.dark .reply-box {
+    border-top-color: rgb(40, 40, 40);
+    background-color: rgb(30, 30, 30);
+}
+
+.dark .reply-box .user-input {
+    background-color: rgb(41, 41, 41);
+}
+
+.dark .more-button {
+    fill: rgb(207, 207, 207);
+}
+
+.dark .return-button {
+    fill: rgb(207, 207, 207);
+}
+
+.dark .emogi-button {
+    fill: rgb(207, 207, 207);
+}
+
+.dark .voice-button {
+    fill: rgb(207, 207, 207);
+}
+
+.dark .plus-button {
+    fill: rgb(207, 207, 207);
+}
+
+.dark .listen-icon {
+    fill: rgb(88, 88, 88);
+}

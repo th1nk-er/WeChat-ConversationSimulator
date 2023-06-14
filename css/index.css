@@ -16,6 +16,7 @@
 .return-button {
     display: inline-block;
     margin: 25px;
+    fill: #333;
 }
 
 .name-box {
@@ -35,12 +36,14 @@
 
 .listen-icon {
     margin-left: 5px;
+    fill: #bfbfbf;
 }
 
 .more-button {
     display: inline-block;
     margin-top: 25px;
     margin-right: 25px;
+    fill: #000;
 }
 
 .message-left,
@@ -56,7 +59,9 @@
 
 .message-left .msg-photo,
 .message-right .msg-photo {
-    max-width: 100%;
+    max-width: 70%;
+    margin: 0 20px;
+    border-radius: 7px;
 }
 
 .avatar {
@@ -113,14 +118,17 @@
 
 .voice-button {
     margin: 15px 20px;
+    fill: #000;
 }
 
 .emogi-button {
     margin: 15px 8px;
+    fill: #000;
 }
 
 .plus-button {
     margin: 15px 5px;
+    fill: #000;
 }
 
 .user-input {
@@ -129,4 +137,17 @@
     margin-top: 10px;
     background-color: white;
     border-radius: 5px;
+}
+
+.controll-box {
+    float: left;
+}
+
+.controll-box label {
+    display: block;
+}
+
+.controll-box label,
+.controll-box input {
+    vertical-align: middle;
 }
