@@ -76,11 +76,13 @@
 }
 
 .msg-wrapper {
-    padding: 8px;
-    font-size: 25px;
+    padding: 12px 15px;
+    letter-spacing: 1px;
+    font-size: 18px;
     margin-left: 20px;
     border-radius: 7px;
     max-width: 65%;
+
 }
 
 .msg-wrapper>span {
